@@ -207,9 +207,12 @@ marimo/_lsp/
 __marimo__/
 
 # Project-specific
+.venv/
 data/raw/
 data/processed/
 models/
 notebooks/.ipynb_checkpoints/
 config/secrets.yaml
+!data/processed/.gitkeep
 .env
+!.gitkeep
